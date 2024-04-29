@@ -1,0 +1,389 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 63px;
+    background-color: #ff8800;
+    display: flex;
+    align-items: center;
+    padding: 0px 60px;
+    gap: 30px;
+    position: fixed;
+    text-transform: uppercase;
+
+}
+
+nav .logo {
+    text-transform: uppercase;
+    font-family: math;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    padding: 20px;
+    background-color: #ff8800;
+    background: #e67a00;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .menu {
+    box-shadow: inset 0 -3px 0 #ffff;
+    line-height: 62px;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.menu a {
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg);
+    width: 100%;
+    height: 550px;
+}
+
+.banner {
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
+    text-shadow: 2px 2px #222;
+    font-family: cursive;
+}
+
+.banner h1 {
+    text-shadow: 2px 2px #222;
+    width: auto;
+    margin-bottom: 15px;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    font-size: xxx-large;
+    font-weight: 500;
+}
+
+.banner h3 {
+    color: white;
+    font-size: 20px;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+
+.banner input {
+    width: 542px;
+    height: 42px;
+    border: none;
+    outline: none;
+    background-color: #000000c9;
+    padding-left: 10px;
+    font-size: 17px;
+    color: #efe4db;
+}
+
+::placeholder {
+    color: white;
+}
+
+.general {
+    text-align: center;
+    padding: 172px;
+}
+
+.general h1 {
+    font-size: 42px;
+    margin-bottom: 8px;
+    font-size: 42px;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    color: #444;
+    font-weight: 500;
+
+}
+
+.general h3 {
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    color: #444;
+    font-weight: 500;
+}
+
+.mumbai {
+    background-image: url(../IMAGE/Mumbai.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: 0px 60px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.mumbai h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.chennai {
+    background-image: url(../IMAGE/Chennai.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: -270px 452px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+
+}
+
+.chennai h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.banglore {
+    background-image: url(../IMAGE/Bangalore.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: 0px 840px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.banglore h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.delhi {
+    background-image: url(../IMAGE/Delhi-NCR.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: 0px 60px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.delhi h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.hyderabad {
+    background-image: url(../IMAGE/Hyderabad.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: -270px 452px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+
+}
+
+.hyderabad h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.kolkata {
+    background-image: url(../IMAGE/Kolkata.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: 0px 840px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.kolkata h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.pune {
+    background-image: url(../IMAGE/Pune.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: 0px 60px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+
+}
+
+.pune h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.lucknow {
+    background-image: url(../IMAGE/Lucknow.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: -270px 452px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+
+}
+
+.lucknow h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.ahemdabad {
+    background-image: url(../IMAGE/Ahmedabad.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: 0px 840px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.ahemdabad h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.jaipur {
+    background-image: url(../IMAGE/Jaipur.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: 0px 60px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.jaipur h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.dehradun {
+    background-image: url(../IMAGE/Dehradun.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: -270px 452px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+
+}
+
+.dehradun h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.surat {
+    background-image: url(../IMAGE/Surat.png);
+    width: 331px;
+    height: 270px;
+    display: flex;
+    margin: 0px 840px;
+    border: 4px solid #ddd;
+    background-color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.surat h1 {
+    margin: 233px 127px;
+    color: #fff;
+    text-shadow: 2px 2px #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.button {
+    width: 180px;
+    height: 44px;
+    border-radius: 53px;
+    margin: 100px 539px;
+    color: white;
+    border: none;
+    background-color: #ff8800;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.gyan {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #666;
+    padding: 0 48px;
+}
+
+.gyan h2 {
+    font-size: large;
+}
+
+footer {
+    background: #f7f7f7;
+    width: 100%;
+    height: 200px;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    padding: 44px;
+}
+
+footer .priv h5{
+    color: #e67a00;
+}
+footer .copy h5{
+    color: #666;
+}

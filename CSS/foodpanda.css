@@ -1,0 +1,215 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+nav {
+    background-color: beige;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: #ff2b85;
+    padding: 0 20px;
+}
+
+.banner {
+    background-image: url(../IMAGE/about-foodpanda.jpeg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 61px;
+    text-transform: uppercase;
+    font-family: serif;
+    background: bisque;
+    margin: auto;
+    width: 44%;
+    padding-top: 5px;
+    position: relative;
+    top: 40%;
+    box-shadow: 4px 4px 4px pink;
+
+}
+
+.about {
+    text-align: center;
+    padding: 30px 9px;
+}
+
+.p {
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 29px;
+}
+
+h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: math;
+    margin-bottom: 11px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.about button {
+    width: 193px;
+    height: 43px;
+    margin-top: 19px;
+    border-radius: 36px;
+}
+
+.press {
+    background-image: url(../IMAGE/tanduri\ chicken.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #0e0207;
+    background-attachment: fixed;
+
+}
+
+.press button {
+    width: 193px;
+    height: 43px;
+    margin-top: 19px;
+    border-radius: 36px;
+}
+
+.press h2 {
+
+    font-family: serif;
+    font-size: large;
+}
+
+.press p {
+    margin-top: 0px;
+    /* position: relative;
+    top: 202px;*/
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: math;
+    font-weight: bold;
+
+}
+
+.team {
+    background-image: url(../IMAGE/foodpanda-home-2.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: black;
+    background-attachment: fixed;
+}
+
+.team h2 {
+    text-transform: uppercase;
+    font-family: serif;
+    position: relative;
+    top: 202px;
+    letter-spacing: 2px;
+}
+
+.team p {
+    margin-top: 220px;
+}
+
+.team button {
+    width: 193px;
+    height: 43px;
+    margin-top: 19px;
+    border-radius: 36px;
+}
+
+
+.contact {
+    background: #ff2b85;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.contact h2 {
+    text-transform: uppercase;
+    font-family: serif;
+    position: relative;
+    top: 60px;
+
+}
+
+.contact p {
+    margin-top: 75px;
+}
+
+.contact button {
+    width: 193px;
+    height: 43px;
+    margin-top: 19px;
+    border-radius: 36px;
+}
+
+
+footer {
+    background: black;
+    width: 100%;
+    height: 400px;
+    padding: 80px 3% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+}
+
+.footer-content h4 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li {
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover {
+    transform: translate(-3px)translateX(-5px);
+    color: #fff;
+}
+
+.footer-content p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0px;
+}

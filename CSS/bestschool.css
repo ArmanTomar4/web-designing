@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 63px;
+    background-color: #ff8800;
+    display: flex;
+    align-items: center;
+    padding: 0px 111px;
+    gap: 30px;
+
+
+}
+
+nav .logo {
+    text-transform: uppercase;
+    font-family: math;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    padding: 20px;
+    background-color: #ff8800;
+
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .menu {
+    box-shadow: inset 0 -3px 0 #ffff;
+    line-height: 62px;
+}
+.menu a{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(../IMAGE/blur.jpg);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
